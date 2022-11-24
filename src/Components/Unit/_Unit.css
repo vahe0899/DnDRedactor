@@ -1,0 +1,122 @@
+html, body {
+    background-color: #4E4946;
+    display: flex;
+    justify-content: center;
+}
+
+::-webkit-scrollbar {
+  width: 0;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: min-content;
+}
+
+.character {
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.menu {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    max-width: 70%;
+}
+
+.text-menu, .clothes-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.text-button {
+    border: solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    width: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #5C5C5C;
+    border-color: white;
+    color: white;
+    cursor: pointer;
+}
+
+.text-button:active {
+    background-color: #3f3f3f;
+}
+
+.clothes-button {
+    border: solid;
+    border-radius: 15px;
+    padding: 10px;
+    margin: 5px;
+    width: 50px;
+    height: 50px;
+    display: flex;
+    justify-content: center;
+    background-color: #5C5C5C;
+    border-color: white;
+    color: white;
+    /* background-image: url(../assets/coat.png); */
+    background-size: 40%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    cursor: pointer;
+}
+
+.clothes-button:active {
+    background-color: #3f3f3f;
+}
+
+.chest, .head, .legs, .back, .weapon, .arms, .shoes, .belt {
+    position: absolute;
+}
+
+.bg {
+    position: absolute;
+    z-index: 0;
+}
+
+.body {
+    z-index: 8;
+}
+
+.chest {
+    z-index: 12;
+}
+
+.head {
+    z-index: 14;
+}
+
+.legs {
+    z-index: 10;
+}
+
+.back {
+    z-index: 0;
+}
+
+.weapon {
+    z-index: 15;
+}
+
+.arms {
+    z-index: 13;
+}
+
+.shoes {
+    z-index: 9;
+}
+
+.belt {
+    z-index: 13;
+}

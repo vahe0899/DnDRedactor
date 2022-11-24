@@ -1,0 +1,16 @@
+export const CHEST_LIST = 'CHEST_LIST';
+export const HEAD_LIST = 'HEAD_LIST';
+export const LEGS_LIST = 'LEGS_LIST';
+export const BACK_LIST = 'BACK_LIST';
+export const WEAPON_LIST = 'WEAPON_LIST';
+export const ARM_LIST = 'ARM_LIST';
+export const SHOES_LIST = 'SHOES_LIST';
+export const BELT_LIST = 'BELT_LIST';
+export const CHEST_ACTIVE = 'CHEST_ACTIVE';
+export const HEAD_ACTIVE = 'HEAD_ACTIVE';
+export const LEGS_ACTIVE = 'LEGS_ACTIVE';
+export const BACK_ACTIVE = 'BACK_ACTIVE';
+export const WEAPON_ACTIVE = 'WEAPON_ACTIVE';
+export const ARMS_ACTIVE = 'ARMS_ACTIVE';
+export const SHOES_ACTIVE = 'SHOES_ACTIVE';
+export const BELT_ACTIVE = 'BELT_ACTIVE';
