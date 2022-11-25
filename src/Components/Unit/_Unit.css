@@ -13,27 +13,38 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
-    max-width: min-content;
 }
 
 .character {
     display: flex;
-    justify-content: center;
-    position: relative;
+    position: fixed;
+    top: -12%;
+    background-color: #4E4946;
 }
 
 .menu {
     display: flex;
     justify-content: center;
-    flex-direction: column;
-    max-width: 70%;
+    position: absolute;
+    top: 63%;
 }
 
-.text-menu, .clothes-menu {
+.text-menu {
     display: flex;
     flex-direction: row;
     flex-wrap: wrap;
     justify-content: center;
+    position: fixed;
+    top: 50%;
+    background-color: #4E4946;
+}
+
+.clothes-menu {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    z-index: -12;
 }
 
 .text-button {
