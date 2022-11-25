@@ -20,6 +20,7 @@ html, body {
     position: fixed;
     top: -7em;
     background-color: #4E4946;
+    z-index: 1;
 }
 
 .menu {
@@ -38,6 +39,7 @@ html, body {
     top: 24em;
     width: 24em;
     background-color: #4E4946;
+    z-index: 1;
 }
 
 .clothes-menu {
@@ -47,6 +49,7 @@ html, body {
     justify-content: center;
     z-index: -12;
     width: 24em;
+    z-index: 0;
 }
 
 .text-button {
