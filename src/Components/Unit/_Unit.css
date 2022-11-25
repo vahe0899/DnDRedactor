@@ -18,7 +18,7 @@ html, body {
 .character {
     display: flex;
     position: fixed;
-    top: -12%;
+    top: -7em;
     background-color: #4E4946;
 }
 
@@ -26,7 +26,7 @@ html, body {
     display: flex;
     justify-content: center;
     position: absolute;
-    top: 63%;
+    top: 31em;
 }
 
 .text-menu {
@@ -35,7 +35,7 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
     position: fixed;
-    top: 50%;
+    top: 24em;
     background-color: #4E4946;
 }
 
