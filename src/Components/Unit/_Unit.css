@@ -36,6 +36,7 @@ html, body {
     justify-content: center;
     position: fixed;
     top: 24em;
+    width: 24em;
     background-color: #4E4946;
 }
 
@@ -45,6 +46,7 @@ html, body {
     flex-wrap: wrap;
     justify-content: center;
     z-index: -12;
+    width: 24em;
 }
 
 .text-button {
